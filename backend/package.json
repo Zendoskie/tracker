@@ -1,0 +1,15 @@
+{
+  "name": "trackademic-backend",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["education", "attendance", "grades", "qr-code", "mobile-app"],
+  "author": "TRACKADEMIC Team",
+  "license": "MIT",
+  "description": "Backend API for TRACKADEMIC - Academic Performance Tracking App"
+}
