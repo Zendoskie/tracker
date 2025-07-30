@@ -1,0 +1,17 @@
+{
+  "name": "TRACKADEMIC",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest",
+    "backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm start\"",
+    "install-all": "npm install && cd backend && npm install",
+    "build-backend": "cd backend && npm run build",
+    "start-backend": "cd backend && npm start"
+  }
+}
